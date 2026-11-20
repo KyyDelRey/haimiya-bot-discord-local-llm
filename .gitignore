@@ -1,0 +1,9 @@
+﻿# Environment & Secrets
+.env
+
+# Python & Local Databases
+venv/
+.venv/
+__pycache__/
+chroma_db/
+*.pyc
