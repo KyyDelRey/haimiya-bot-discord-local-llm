@@ -1,6 +1,6 @@
 ﻿# 🌸 Haimiya Senpai — Discord AI Companion Bot (Phase 2)
 
-Haimiya Senpai adalah AI companion Discord bertema anime yang ramah, hangat, playful, dan sedikit teasing. Bot ini terintegrasi langsung dengan LLM lokal (**Qwen3:4B**) via **Ollama**, dilengkapi dengan **Mood System**, **Relationship System**, **Personal Memory**, dan **Channel Conversation History** berbasis **SQLite WAL**.
+Haimiya Senpai adalah AI companion Discord bertema anime yang ramah, hangat, playful, dan sedikit teasing. Bot ini terintegrasi langsung dengan LLM lokal (**Qwen3.5:4B**) via **Ollama**, dilengkapi dengan **Mood System**, **Relationship System**, **Personal Memory**, dan **Channel Conversation History** berbasis **SQLite WAL**.
 
 ---
 
@@ -90,7 +90,7 @@ Setiap member memiliki tingkat kedekatan personal tersendiri dengan Haimiya (sco
    ```env
    DISCORD_TOKEN=your_discord_bot_token_here
    OLLAMA_HOST=http://localhost:11434
-   OLLAMA_MODEL=qwen3:4b
+   OLLAMA_MODEL=qwen3.5:4b
    OLLAMA_NUM_CTX=4096
    OLLAMA_MAX_TOKENS=600
    OLLAMA_THINK=false
